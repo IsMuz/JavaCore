@@ -2,15 +2,13 @@ package less5;
 
 public class OSM {
     public static void main(String[] args) throws InterruptedException {
-
-
-
         generateOM();
     }
 
     private static void generateOM() throws InterruptedException {
         int iter = 20;
         System.out.println("start");
+
 
         for (int outerIter = 1; outerIter < 20; outerIter++) {
 
